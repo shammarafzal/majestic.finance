@@ -1,0 +1,136 @@
+.text-title {
+    font-size: 55px;
+}
+.text-contract {
+    font-size: 45px;
+}
+.text-copy {
+    font-size:40px;
+}
+
+.text-lg {
+    font-size: 38px
+}
+
+.text-md {
+    font-size: 29px
+}
+
+.text-sm {
+    font-size: 20px;
+}
+
+.text-white {
+    color: white;
+}
+
+.btn-buy {
+    font-size: 10px;
+}
+.ring-chart{
+    font-size: 20px;
+}
+.gray-box-style {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+    .btn-buy {
+        font-size: 15px!important;
+    }
+
+    .text-title {
+        font-size: 45px
+    }
+    .text-contract {
+        font-size: 35px;
+    }
+    .text-copy {
+        font-size: 30px;
+    }
+
+    .social img {
+        height: 70px!important;
+    }
+    .ring-chart {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .btn-buy {
+        font-size: 10px!important;
+    }
+
+    .text-title {
+        font-size: 30px
+    }
+    .text-contract {
+        font-size: 25px;
+    }
+    .text-copy {
+        font-size: 20px;
+    }
+
+    .text-lg {
+        font-size: 25px;
+    }
+
+    .text-md {
+        font-size: 20px;
+    }
+
+    .text-sm {
+        font-size: 16px;
+    }
+
+    .competitive .text-lg {
+        font-size: 17px;
+    }
+
+    .competitive .text-sm {
+        font-size: 10px;
+    }
+
+    .social img {
+        height: 50px!important;
+    }
+    .ring-chart {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .gray-box-style {
+        padding-top: 15px;
+        border-radius: 10px;
+    }
+    .text-contract {
+        font-size: 15px;
+    }
+    .text-copy {
+        font-size: 12px;
+    }
+}
+
+.input-avax {
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    padding-left: 10px;
+}
+
+.input-avax::placeholder {
+    color: black;
+}
+
+.input-avax::-webkit-outer-spin-button,
+.input-avax::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
